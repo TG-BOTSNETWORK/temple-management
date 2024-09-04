@@ -7,7 +7,7 @@ app = Flask(__name__, template_folder="template", static_url_path='/static')
 
 def connect_to_database():
     try:
-        client = MongoClient('mongodb+srv://santhoshpodili874:SANTHU7981@cluster0.rz2dqev.mongodb.net/Cluster0?retryWrites=true&w=majority')
+        client = MongoClient('mongodb+srv://Amala203145:Amala2031456@cluster0.t9ibfge.mongodb.net/?retryWrites=true&w=majority')
         db = client['Cluster0']
         print("Database connection successful")
         return db  # Return the database client
